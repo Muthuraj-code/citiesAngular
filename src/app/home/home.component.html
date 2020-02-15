@@ -1,0 +1,12 @@
+<div class="container">
+<div class="row">
+  <div class="col">
+    <div ngbDropdown  class="d-inline-block">
+      <button class="btn btn-outline-primary btn-lg btn-block" id="dropdownBasic1" ngbDropdownToggle>States</button>
+      <div ngbDropdownMenu aria-labelledby="dropdownBasic1">
+        <button ngbDropdownItem *ngFor="let state of states" >{{state.State}}</button>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
